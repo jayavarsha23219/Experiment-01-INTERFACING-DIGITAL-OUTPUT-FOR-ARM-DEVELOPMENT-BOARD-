@@ -79,13 +79,106 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+## ADDITION OF 8 BIT ALP:
+```
+MOV AL,16H
+MOV BL,41H
+ADD AL,BL
+HLT
+```
+## OUTPUT:
+![8bit add](https://github.com/user-attachments/assets/6958b5a0-a7ae-4626-83fc-5ea201356c94)
+
+
+## SUBTRACTION OF 8 BIT ALP:
+```
+MOV AL,83H
+MOV BL,64H
+SUB AL,BL
+HLT
+```
+## OUTPUT:
+![8bit sub](https://github.com/user-attachments/assets/5dba2aac-27ff-4ab8-9751-599aad2e0a63)
+
+
+## MULTIPLICATION OF 8 BIT ALP:
+```
+org 100h
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+ret
+```
+## OUTPUT:
+![8bit mul](https://github.com/user-attachments/assets/7ae0ad2c-f217-4d8d-85f6-89acf4f8e649)
+
+
+## DIVISION OF 8 BIT ALP:
+```
+org 100h
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+ret
+```
+## OUTPUT:
+![8bit div](https://github.com/user-attachments/assets/459b4dd4-3315-461b-b9c6-4e680fe2d7d3)
+
+
+## AND GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+ret
+```
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/4871f0dd-d402-4bd5-b9e5-8e15075f7f59)
+
+
+## OR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+OR AL,BL
+HLT
+ret
+```
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/4bfed5a7-eb61-40dd-9f4f-6f00eba7654e)
 
 
 
-## Output  :
- 
- 
- 
+## NOT GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,65H
+NOT AL
+HLT
+ret
+```
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/8c400c53-0e29-4717-b5de-6715ae25efb4)
+
+
+## XOR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+
+## OUTPUT :
+ ![image](https://github.com/user-attachments/assets/08de302d-a1bc-4709-9d70-51ace0e9af3d)
+
  
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
