@@ -126,59 +126,6 @@ ret
 ## OUTPUT:
 ![8bit div](https://github.com/user-attachments/assets/459b4dd4-3315-461b-b9c6-4e680fe2d7d3)
 
-
-## AND GATE OF 8 BIT ALP:
-```
-org 100h
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
-HLT
-ret
-```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/4871f0dd-d402-4bd5-b9e5-8e15075f7f59)
-
-
-## OR GATE OF 8 BIT ALP:
-```
-org 100h
-MOV AL,33H
-MOV BL,44H
-OR AL,BL
-HLT
-ret
-```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/4bfed5a7-eb61-40dd-9f4f-6f00eba7654e)
-
-
-
-## NOT GATE OF 8 BIT ALP:
-```
-org 100h
-MOV AL,65H
-NOT AL
-HLT
-ret
-```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/8c400c53-0e29-4717-b5de-6715ae25efb4)
-
-
-## XOR GATE OF 8 BIT ALP:
-```
-org 100h
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
-HLT
-ret
-```
-
-## OUTPUT :
- ![image](https://github.com/user-attachments/assets/08de302d-a1bc-4709-9d70-51ace0e9af3d)
-
  
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
